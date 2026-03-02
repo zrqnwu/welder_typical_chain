@@ -1,0 +1,30 @@
+# Build artifacts
+/build/
+/compiler/build/
+/backend/welder/compiler/build/
+/backend/welder/mlir_pipeline/workgroup_alloc_to_launch_pass/build/
+
+# Generated artifacts
+/backend/welder/compiler/nvvm_isa_artifacts/
+/backend/welder/mlir_pipeline/*_artifacts/
+/backend/welder/mlir_pipeline/*_artifacts*/
+
+# Temp outputs
+/bench/*_out/
+/bench/*_out*/
+/bench/*_profile_search_out/
+/bench/tmp_*/
+/bench/tmp_*.log
+/bench/tmp_*.tsv
+
+# Python caches
+**/__pycache__/
+.pytest_cache/
+
+# Binary byproducts
+*.o
+*.so
+*.dylib
+
+# Editor / OS
+.DS_Store

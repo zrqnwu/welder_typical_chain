@@ -1,0 +1,3 @@
+case	avg_ms	kernels	pattern	seed	iters	warmup	out_dir
+baseline	8.869274e-01	5	linear	1	200	10	/tmp/wtc_pin_baseline_run/baseline
+fused	7.756749e-01	1	linear	1	200	10	/tmp/wtc_pin_baseline_run/fused

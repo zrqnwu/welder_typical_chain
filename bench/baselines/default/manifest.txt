@@ -1,0 +1,5 @@
+timestamp=2026-03-02T03:01:45+08:00
+input_mlir=/home/zhangruiqi/welder_typical_chain/mlir/matmul_softmax_chain_f16_native.mlir
+backend_mode=inprocess
+max_connect_level=1
+run_out_base=/tmp/wtc_pin_baseline_run

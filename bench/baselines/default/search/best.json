@@ -1,0 +1,7 @@
+{
+  "tileM": 64,
+  "tileN": 128,
+  "tileK": 32,
+  "threadTileM": 8,
+  "threadTileN": 2
+}
